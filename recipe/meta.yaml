@@ -1,5 +1,5 @@
 {% set name = "alibabacloud-openapi-util" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/alibabacloud_openapi_util-{{ version }}.tar.gz
-  sha256: 5de2158a6e894b3364d9627090afdb6de4f6b92d1adf3a00e2c69206df30de15
+  sha256: ebbc3906f554cb4bf8f513e43e8a33e8b6a3d4a0ef13617a0e14c3dda8ef52a8
 
 build:
   noarch: python
